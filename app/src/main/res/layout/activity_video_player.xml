@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8D2D1"
+    android:orientation="vertical"
+    tools:context=".VideoPlayer">
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/channelTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:textSize="18sp"
+            android:layout_margin="16dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/titleTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:layout_margin="16dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/descriptionTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:layout_margin="16dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+</LinearLayout>
